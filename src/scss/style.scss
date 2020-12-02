@@ -1,29 +1,76 @@
-// -------------------------
-//    Functions
-// -------------------------
-@import "_functions/rem";
+// =====
+// BROTH
+// =====
 
-// -------------------------
-//    Settings
-// -------------------------
-@import "_settings/media-queries";
-@import "_settings/colors";
-@import "_settings/typography";
+@import "00-Broth/variables";
 
-// -------------------------
-//    Fonts
-// -------------------------
-@import "@fonts/geomanist";
-@import "@fonts/salome";
+// Core
+@import "00-Broth/fonts";
+@import "00-Broth/mixins";
+@import "00-Broth/global";
 
-// -------------------------
-//    Elements
-// -------------------------
-@import "elements/reset";
-@import "elements/base";
-@import "elements/typography";
+// Bootstrap variables reset
+@import "00-Broth/vendors/bootstrap-variables";
 
-// -------------------------
-//    Screens
-// -------------------------
-@import "screens/home";
+// Bootstrap default styles
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+
+// =====
+// ATOMS
+// =====
+
+@import "01-Atoms/buttons";
+@import "01-Atoms/hashtags";
+@import "01-Atoms/icons";
+@import "01-Atoms/images";
+@import "01-Atoms/links";
+@import "01-Atoms/separators";
+@import "01-Atoms/typography";
+@import "01-Atoms/wpcf7";
+
+// =========
+// MOLECULES
+// =========
+
+@import "02-molecule/breadcrumb";
+
+// =========
+// ORGANISMS
+// =========
+
+@import "03-Organisms/conferences";
+@import "03-Organisms/cards";
+@import "03-Organisms/footer";
+@import "03-Organisms/newsletter";
+@import "03-Organisms/header";
+@import "03-Organisms/hero";
+@import "03-Organisms/scrollbox";
+@import "03-Organisms/showcase";
+@import "03-Organisms/testimonials";
+
+// =====
+// PAGES
+// =====
+
+@import "04-Pages/archive";
+@import "04-Pages/contact";
+@import "04-Pages/home";
+@import "04-Pages/offres";
+@import "04-Pages/team";
+@import "04-Pages/single";
+@import "04-Pages/programme";
+
+// =====
+// UTILS
+// =====
+
+@import "05-Utils/backgrounds";
+@import "05-Utils/borders";
+@import "05-Utils/gradients";
+@import "05-Utils/smoothscroll";
+@import "05-Utils/text";
+
+// Custom EN
+@import "./custom";

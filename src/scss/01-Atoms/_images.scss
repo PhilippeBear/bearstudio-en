@@ -1,0 +1,39 @@
+.a-img{
+  max-width: 100%;
+
+  &.is--xxs {
+    width : 20%;
+  }
+
+  &.is--xs {
+    width : 30%;
+  }
+
+  &.is--sm {
+    width : 40%;
+  }
+
+  &.is--circle {
+    border-radius: 50%;
+  }
+}
+
+.bloc-line-img{
+  width: 35%;
+}
+
+.bear-promise{
+  margin-bottom: -5rem;
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+  .bloc-line-img{
+    width: 100%;
+  }
+
+  .bear-promise{
+    position: absolute;
+    margin-bottom: 0;
+    bottom: -55px;
+  }
+}

@@ -1,0 +1,83 @@
+.h3, .h4, .h5, .h6,body h3,body h4,body h5,body h6 {
+  color : $secondary;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.h2, .h1, body h1,
+body h2 {
+  color : $secondary;
+  font-family: $font-title;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+body .h1, body h1 {
+  font-size: 4rem;
+}
+
+body .h2, body h2 {
+  font-size: 3rem;
+}
+
+.h3, body h3,
+.h4, body h4,
+.h5, body h5 {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width : $breakpoint-md){
+
+  body .p-single .h2,
+  body .p-single h2{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+  body .p-single .h3,
+  body .p-single h3 {
+    font-size: 1.5rem;
+  }
+}
+
+pre {
+  background-color: #F9F9F9;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+blockquote {
+  border-left: 3px solid $gray;
+  padding-left: 10px;
+}
+
+blockquote cite {
+  font-size: 0.9rem;
+  color : $gray;
+}
+
+.experience-text{
+  font-size: 1.6rem!important;
+}
+
+.line{
+  margin-top: .8rem;
+}
+.info-header{
+  font-size: 1.25rem;
+}
+.no-conference-text{
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.author-name{
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}

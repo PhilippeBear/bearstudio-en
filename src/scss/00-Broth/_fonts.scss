@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: 'TrashHand';
+  src: url('#{$assets-folders}/statics/statics/fonts/TrashHand.ttf') format('ttf'),
+  url("#{$assets-folders}/statics/statics/fonts/trashhand.woff") format("woff"),
+  url("#{$assets-folders}/statics/statics/fonts/trashhand.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Bold';
+  src: url('#{$assets-folders}/statics/statics/fonts/RobotoSlab-Bold.ttf') format('ttf'),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Bold.woff") format("woff"),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Light';
+  src: url('#{$assets-folders}/statics/statics/fonts/RobotoSlab-Light.ttf') format('ttf'),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Light.woff") format("woff"),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Light.woff2") format("woff2");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Regular';
+  src: url('#{$assets-folders}/statics/statics/fonts/RobotoSlab-Regular.ttf') format('ttf'),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Regular.woff") format("woff"),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab-Thin';
+  src: url('#{$assets-folders}/statics/statics/fonts/RobotoSlab-Thin.ttf') format('ttf'),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Thin.woff") format("woff"),
+  url("#{$assets-folders}/statics/statics/fonts/RobotoSlab-Thin.woff2") format("woff2");
+  font-weight: initial;
+}
+
+$font-regular : 'RobotoSlab-Regular', Arial, Tahoma, sans-serif !default;
+$font-bold : 'RobotoSlab-Bold', Arial, Tahoma, sans-serif !default;
+$font-thin : 'RobotoSlab-Thin', Arial, Tahoma, sans-serif !default;
+$font-light : 'RobotoSlab-Light', Arial, Tahoma, sans-serif !default;
+$font-title : 'TrashHand', Arial, Tahoma, sans-serif !default;

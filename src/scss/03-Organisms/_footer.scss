@@ -1,0 +1,46 @@
+.o-footer {
+  font-size: 0.9rem;
+  color : #fff;
+
+  &__sub{
+    background-color: darken($secondary, 3%);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
+  &__bearstudio-logo{
+    height: 1rem;
+    margin: 0 .2rem .2rem 0;
+  }
+
+  &__normandie-logo{
+    height: 1rem;
+    margin: 0 0 .3rem .1rem;
+  }
+
+  .fab,
+  .fa {
+    font-size: 25px;
+    margin-right: 5px;
+    color : $primary;
+  }
+
+  &__newsletter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    .form-control {
+      margin-right: 0.33rem;
+      max-width: 20rem;
+    }
+  }
+}
+
+.gradient-light + .o-footer{
+  border-top: 1px solid $primary-light;
+  .a-separator.is--alt {
+    background-image: url(../../assets/img/separator-yellow-light.svg);
+    margin-top: -2px;
+  }
+}

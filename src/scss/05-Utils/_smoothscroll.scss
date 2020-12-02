@@ -1,0 +1,27 @@
+$space: 3rem;
+
+.u-smoothscroll__anchor {
+  margin-top: -$space;
+  padding-top: $space;
+
+  &.pt-1 {
+    padding-top: map_get($spacers, 1) + $space!important;
+  }
+
+  &.pt-2 {
+    padding-top: map_get($spacers, 2) + $space!important;
+  }
+
+  &.pt-3 {
+    padding-top: map_get($spacers, 3) + $space!important;
+  }
+
+  &.pt-4 {
+    padding-top: map_get($spacers, 4) + $space!important;
+  }
+
+  &.pt-5 {
+    padding-top: map_get($spacers, 5) + $space!important;
+  }
+}
+

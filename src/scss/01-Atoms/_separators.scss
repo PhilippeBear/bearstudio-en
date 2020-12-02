@@ -1,0 +1,53 @@
+.a-separator {
+  margin-bottom: -2px;
+  display: block;
+  height: 10vh;
+  background-size: 100% 100%;
+  background-image: url(#{$assets-folders}/img/separator-white-1.svg);
+
+  // ======
+  // SHAPES
+  // ======
+
+  &.is--default {
+    background-image: url(#{$assets-folders}/img/separator-white-1.svg);
+  }
+
+  &.is--alt {
+    background-image: url(#{$assets-folders}/img/separator-white-2.svg);
+  }
+
+  // ======
+  // COLORS
+  // ======
+
+  &.is--grey {
+    background-image: url(https://www.bearstudio.fr/wp-content/themes/site/assets/img/separator-grey.svg);
+  }
+
+  &.is--yellow {
+    background-image: url(https://www.bearstudio.fr/wp-content/themes/site/assets/img/separator-yellow.svg);
+  }
+
+  // ==========
+  // DIRECTIONS
+  // ==========
+
+  &.is--flip-x {
+    transform: scaleX(-1) translateY(0px);
+    -webkit-transform: scaleX(-1) translateY(0px);
+    -ms-transform: scaleX(-1) translateY(0px);
+  }
+
+  &.is--flip-y {
+    transform: scaleY(-1) translateY(0px);
+    -webkit-transform: scaleY(-1) translateY(0px);
+    -ms-transform: scaleY(-1) translateY(0px);
+  }
+
+  &.is--flip-x.is--flip-y {
+    transform: scaleY(-1) scaleX(-1) translateY(0px);
+    -webkit-transform: scaleY(-1) scaleX(-1) translateY(0px);
+    -ms-transform: scaleY(-1) scaleX(-1) translateY(0px);
+  }
+}

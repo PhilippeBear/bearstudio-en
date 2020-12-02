@@ -1,0 +1,68 @@
+.p-img-container {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.p-card .p-card__link-overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($secondary, .9);
+    transition: all .3s ease;
+}
+
+.p-card:hover .p-card__link-overlay {
+    opacity: 1;
+}
+
+.p-card {
+    display:flex;
+}
+
+#related_posts .p-card {
+    display: block;
+}
+
+.p-card .p-card__link-overlay .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+}
+
+.archive .p-card a.card,
+.blog .p-card a.card,
+.pagination .page-link {
+    text-decoration: none;
+    flex: 1;
+}
+
+.badge_blog {
+    font-size: 1.3rem;
+}
+
+.badge_blog a {
+    text-decoration: none;
+    padding: 1vh;
+    margin: 0vh 0.5vh 1vh 0;
+}
+
+.pagination {
+    align-items: center;
+}
+
+.pagination .text-muted:hover,
+.pagination .pagination__page-number,
+.pagination .pagination__page-number:hover {
+    background-color: inherit;
+    color : $secondary;
+}

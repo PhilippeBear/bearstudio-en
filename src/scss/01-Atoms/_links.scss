@@ -1,0 +1,11 @@
+
+a:not(.btn) {
+  color : $secondary;
+  text-decoration: underline;
+}
+
+a:not(.btn):hover,
+a:not(.btn):focus  {
+  color : $secondary;
+  text-decoration: none;
+}

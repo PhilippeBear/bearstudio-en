@@ -1,0 +1,80 @@
+.o-hero {
+  padding: 0;
+  background-color: rgba($secondary, .9);
+  color: $light;
+  position: relative;
+  border-bottom: 1px solid $primary;
+
+  &__media{
+    background-image: url(#{$assets-folders}/img/bear-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  &__video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &-container{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+    }
+  }
+
+  h1,
+  .h1 {
+    color : $primary;
+    font-family: $font-title;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    line-height: 1em;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+    }
+  }
+
+  h2,
+  .h2 {
+    color : $primary;
+    font-family: $font-title;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    line-height: 1em;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+    }
+  }
+
+  & &__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    min-height: 25vh;
+
+    .row{
+      padding-bottom: 0;
+    }
+  }
+
+  .a-img {
+    max-width: 40%;
+    @include media-breakpoint-up(lg) {
+      max-width: 50%;
+    }
+  }
+}

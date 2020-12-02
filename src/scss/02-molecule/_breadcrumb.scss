@@ -1,0 +1,38 @@
+.m-breadcrumb {
+    padding: 0 0 10px 0;
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+    & li:last-child{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    &__item {
+        white-space: nowrap;
+        list-style-type: none;
+
+        &:not(:last-of-type)::after {
+            content: '\203a';
+            margin: 0 5px;
+        }
+
+        & a {        
+            text-decoration: none !important;
+            text-overflow: ellipsis;
+            width: 100%;
+        
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
+
+        &-active {
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+}

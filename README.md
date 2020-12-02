@@ -1,13 +1,11 @@
-# Personal Website
-
-Repository for my personal website: [ivan.dalmet.fr](https://ivan.dalmet.fr)
+# Bearstudio English
 
 ## Install dependencies
 
 This project use [Yarn](https://yarnpkg.com)
 
 ```
-yarn install
+yarn
 ```
 
 ## Run dev website server

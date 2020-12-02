@@ -1,0 +1,26 @@
+.conference {
+    margin-top: 5rem;
+    display: flex;
+    align-content: flex-end;
+
+    &__text {
+        text-align: end;
+        height: 100%;
+
+        &__title {
+            font-size: 2.5rem !important;
+            margin-top: 0;
+        }
+    }
+
+    &__timeline {
+        margin-right: 25px;
+        flex-direction: column;
+        height: 100%;
+
+        &-single__date {
+            height: 100%;
+            font-size: 1.6rem !important;
+        }
+    }
+} 
