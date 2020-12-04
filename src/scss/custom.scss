@@ -17,3 +17,25 @@
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+.img-odd{
+  &--left {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  &--right {
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.img-even{
+  &--left {
+    margin-top: -50px;
+  }
+  &--right {
+    margin-top: 50px;
+  }
+}
