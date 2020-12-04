@@ -3,18 +3,18 @@
   display: block;
   height: 10vh;
   background-size: 100% 100%;
-  background-image: url(#{$assets-folders}/images/separator-white-1.svg);
+  background-image: url("/separator-white-1.svg");
 
   // ======
   // SHAPES
   // ======
 
   &.is--default {
-    background-image: url(#{$assets-folders}/images/separator-white-1.svg);
+    background-image: url("/separator-white-1.svg");
   }
 
   &.is--alt {
-    background-image: url(#{$assets-folders}/images/separator-white-2.svg);
+    background-image: url("/separator-white-2.svg");
   }
 
   // ======
@@ -22,11 +22,11 @@
   // ======
 
   &.is--grey {
-    background-image: url(#{$assets-folders}/images/separator-grey.svg);
+    background-image: url("/separator-grey.svg");
   }
 
   &.is--yellow {
-    background-image: url(#{$assets-folders}/images/separator-yellow.svg);
+    background-image: url("/separator-yellow.svg");
   }
 
   // ==========

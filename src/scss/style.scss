@@ -14,8 +14,6 @@
 
 // Bootstrap default styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
 
 // =====
 // ATOMS
@@ -28,39 +26,25 @@
 @import "01-Atoms/links";
 @import "01-Atoms/separators";
 @import "01-Atoms/typography";
-@import "01-Atoms/wpcf7";
 
 // =========
 // MOLECULES
 // =========
 
-@import "02-molecule/breadcrumb";
-
 // =========
 // ORGANISMS
 // =========
 
-@import "03-Organisms/conferences";
-@import "03-Organisms/cards";
 @import "03-Organisms/footer";
-@import "03-Organisms/newsletter";
 @import "03-Organisms/header";
 @import "03-Organisms/hero";
 @import "03-Organisms/scrollbox";
-@import "03-Organisms/showcase";
-@import "03-Organisms/testimonials";
 
 // =====
 // PAGES
 // =====
 
-@import "04-Pages/archive";
-@import "04-Pages/contact";
 @import "04-Pages/home";
-@import "04-Pages/offres";
-@import "04-Pages/team";
-@import "04-Pages/single";
-@import "04-Pages/programme";
 
 // =====
 // UTILS

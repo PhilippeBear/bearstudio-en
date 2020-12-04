@@ -6,7 +6,7 @@
   border-bottom: 1px solid $primary;
 
   &__media{
-    background-image: url(#{$assets-folders}/img/bear-cover.jpg);
+    background-image: url(#{$assets-folders}/bear-cover.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
